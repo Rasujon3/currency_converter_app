@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                   child: Text(
                     "Currency Converter",
                     style: TextStyle(
-                        fontSize: 36,
+                        fontSize: 30,
                         fontWeight: FontWeight.bold,
                         color: Colors.white),
                   ),
@@ -131,7 +131,7 @@ class _HomePageState extends State<HomePage> {
                         keyboardType: TextInputType.number,
                       ),
                       SizedBox(
-                        height: 20.0,
+                        height: 15.0,
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
